@@ -1,0 +1,233 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+   scroll-behavior: smooth;
+    color:rgb(246, 241, 235)
+}
+
+.adamina-regular {
+    font-family: "Adamina", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .page{
+    background-color: black;
+  }
+  .page .sidebar .list-group {
+  padding-top: 9px;
+  margin-left: 90px;
+
+  }
+ .sidebar{
+  
+  display: flex;
+  flex-direction: column;
+  top: 0;
+  left: 0;
+  max-width: 18rem;
+  height: 100vh;
+  background-color: rgb(31, 30, 31);
+  transition: max-width 0.3s ease-in-out;
+  padding:0
+ }
+ 
+ .main .para{
+  width:500px;
+  align-items: center;
+  margin-left: 500px;
+  margin-right: 20px;
+ }
+   
+  
+  .page .sidebar img{
+    width:140px;
+   
+    margin-left: 100px;
+    border-radius: 40%;
+    border:6px solid yellow
+
+  }
+  li .btn {
+    color: #fff;
+    margin-left: 30px;
+    font-size: larger;
+    width:290px;
+    background-color: rgb(50, 50, 54);
+  }
+  li .btn:hover{
+   background-color: yellow;
+   border:3px solid rgb(215, 87, 13);
+
+  }
+  .about{
+    max-width: 900px;
+    margin: auto;
+   width:700px;
+   padding-left: 150px;
+   
+text-align: center;
+font-size: 20px;
+    
+  }
+  .about ul{
+    width:300px;
+    margin: auto;
+    padding: 20px;
+    list-style: none;
+    line-height: 3;
+    font-size: 20px;
+    
+    font-weight: 500;
+    color: rgb(246, 241, 235);
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    
+    background-color: rgb(31, 30, 31);
+  }
+  .about span{
+    color:#F7B400
+  }
+  .about .box{
+    margin-top: 30px;
+    margin-bottom: 20px;
+   
+
+  }
+  .about h2{
+    border-bottom:.1rem solid #fff4;
+  }
+  .Education{
+    max-width: 900px;
+    margin: auto;
+   width:700px;
+   padding-left: 150px;
+   
+
+  }
+  .Education span{
+    color:#F7B400
+  }
+  .Education.box span{
+    color:#F7B400
+  }
+  .Portfolio{
+    max-width: 900px;
+    margin: auto;
+   width:700px;
+   padding-left: 150px;
+
+  }
+  .Portfolio h2{
+    text-align: center;
+    padding: 20px;
+  }
+  .Portfolio .image{
+    padding:10px;
+    width:260px;
+    height:280px;
+    
+    border:1px solid yellow;
+  }
+  .header1 h2{
+    border-bottom:.1rem solid #fff4;
+  }
+  .page .list-group{
+    margin-left: 30px;
+  
+    width:350px;
+  }
+  .para a{
+    color: #fff;
+  
+    font-size: larger;
+    width:250px;
+    background-color: rgb(61, 61, 74);
+  }
+  .para a:hover{
+    background-color: yellow;
+  }
+  .para{
+    
+   margin-top: 150px;
+   padding-bottom: 200px;
+  }
+  .para span{
+    color:yellow
+  }
+  .main .para h1{
+    color:beige;
+  }
+  .header1{
+    padding-top:150px
+  }
+  .header1 h2{
+   text-align: center;
+   padding-bottom: 30px;
+
+  }
+  .contact h2{
+    border-bottom:.1rem solid #fff4;
+  }
+  .contact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 900px;
+    margin: auto;
+   width:800px;
+   padding-left: 150px;
+   font-size: 15px;
+   
+  }
+  .contact span{
+    color: #F7B400;
+  }
+  .contact .content{
+    line-height: 3;
+    font-size: 20px;
+    
+  }
+  .contact .form{
+    flex: 1 1 45rem;
+    padding: 2rem;
+    margin: 2rem;
+    margin-bottom: 4rem;
+    line-height: 3;
+    font-size: 20px;
+    background-color: black;
+  }
+  button, input, optgroup, select, textarea {
+    background-color: black;
+    width:100%;
+    height: 65px;
+    border: none;
+    padding: 1.5rem;
+  }
+  .contact form a{
+    background-color: rgb(57, 57, 59);
+    color: #fff;
+    font-size: larger;
+    width:220px;
+    height: 55px;
+    border: none;
+    padding: 1rem;
+    text-align: center;
+  }
+  .contact form a:hover{
+    background-color: yellow;
+    border: 2px solid red;
+    color: black;
+  }
+   
+   
+   
+   
+
+    
+
+
+  
